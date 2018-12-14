@@ -1,0 +1,524 @@
+
+@media screen and (max-width: 1800px) {
+
+
+
+
+}
+@media screen and (max-width: 1700px) {
+
+  .user-img {
+    width: 60px;
+    height: 60px;
+  }
+  .user-details {
+    width: calc(100% - 60px);
+    padding-left: 15px;
+  }
+
+}
+@media screen and (max-width: 1600px) {
+
+
+  .user-list {
+    width: 420px;
+  }
+  .user-box {
+    width: calc(100% - 420px);
+  }
+  .main-container__content {
+    padding: 30px;
+
+  }
+  .spect {
+    width: 50%;
+  }
+  .game-change {
+    width: 48%;
+    margin-right: 0;
+
+  }
+  .amount-cards {
+    width: 50%;
+    margin-top: 30px;
+  }
+  .main-container {
+    padding: 15px;
+  }
+  .adver-info {
+    width: calc(100% - 110px);
+  }
+  .adver-price {
+    width: auto;
+    padding-left: 140px;
+    padding-right: 15px;
+    margin-top: 10px;
+  }
+  .adver-control {
+    width: auto;
+      margin-top: 10px;
+  }
+  .item {
+    align-items: flex-start;
+  }
+  .news {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .adver-img {
+    width: 70px;
+    height: 70px;
+
+  }
+  .adver-info { width: calc(100% - 70px);padding-left: 15px;}
+  .adver-price {
+    padding-left: 90px;
+    padding-right: 15px;
+  }
+
+
+  .user-list, .user-box {
+    width: 100%;
+  }
+  .user-box {
+    margin-top: 15px;
+    padding-left: 0px;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+
+  .prize-extra-figure {
+    background: none;
+    height: auto;
+    >p {
+      position: static;
+      margin-top: 20px;
+      font-size: em(21);
+      padding: 0;
+      color: #fff;
+    }
+  }
+
+  .panel-head {
+    padding: 15px 30px;
+  }
+
+  .side-panel {
+    width: 290px;
+  }
+
+  .main-panel {
+    width: calc(100% - 290px);
+  }
+
+  .add-news {
+    width: 100%;
+    padding: 30px;
+  }
+
+}
+@media screen and (max-width: 992px) {
+
+
+
+
+  .member-row {
+    flex-wrap: wrap;
+  }
+  .member {
+    width: 100%;
+  }
+  .member-time {
+    margin: 10px 0 0;
+    width: calc(100% - 100px);
+  }
+  .member__info {
+    padding-left: 30px;
+  }
+
+  .theme-btn {
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    font-size: em(13);
+  }
+
+  .add-news {
+    padding: 20px 15px;
+  }
+
+  .panel-head {
+    padding: 15px ;
+  }
+
+  .dash-title {
+    font-size: em(18);
+  }
+  .breadcrump__item {
+    font-size: em(15);
+  }
+
+  .admin-nav__link {
+    height: 36px;
+    line-height: 36px;
+    font-size: em(15);
+  }
+
+  .admin-nav__item+.admin-nav__item, .panel-head+.panel-head {
+    margin-top: 5px;
+  }
+
+  .pagination-box {
+    margin-top: 30px;
+  }
+  .pagination__item {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+
+  .admin-box {
+    flex-wrap: wrap;
+  }
+
+  .side-panel {
+    width: 100%;
+  }
+
+  .main-panel {
+    width: 100%;
+  }
+  .logo-wrap {
+    padding: 5px 15px;
+  }
+  .logo-wrap .theme-logo {
+    width: 100px;
+    height: 60px;
+  }
+
+  .admin-nav {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .xs-nav-btn {
+    order: 2;
+    display: block;
+    background: none;
+    border: none;
+    color: #fff;
+  }
+
+  .logo-wrap {
+    width: 100%;
+    justify-content: space-between;align-items: center;
+    padding: 15px;
+
+  }
+
+
+  .adminTable  {
+    border: 0;
+  }
+
+  .adminTable thead {
+    display: none;
+  }
+
+
+  .adminTable tr {
+    margin-bottom: 10px;
+    display: block;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .adminTable  td {
+    display: block;
+    text-align: right;
+    font-size: 13px;
+    border-bottom: 1px dotted #ccc;
+  }
+
+  .adminTable  td:last-child {
+    border-bottom: 0;
+  }
+
+  .adminTable td:before {
+    content: attr(data-label);
+    text-align: left;
+
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .adminTable >tbody td {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+
+
+  .adminTable tr:before {
+    content: attr(data-label-tr);
+    text-align: left;
+    width: 100%;
+    color: #fff;
+    display: block;
+    padding: 15px ;
+    background: #272c2b;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .adver-title {
+    font-size: em(18);
+  }
+  .adver-descr {
+    margin-top: 5px;
+  }
+
+  .theme-action__btn {
+    padding: 0;
+    font-size: em(13);
+  }
+  .medium-title {
+    font-size: em(21);
+  }
+
+  .main-container__content {
+    padding:  15px;
+  }
+
+  .add-container {
+    padding: 0 15px;
+  }
+
+  .page-tab__item {
+    padding: 7px 15px;
+    font-size: em(14);
+  }
+
+  .winners {
+    flex-wrap: wrap;
+    &__title {
+      width: 100%;
+    }
+    .winner-name {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+  }
+
+  .breadcrump {
+    margin-left: 0;
+  }
+
+  .public-info, .user-head{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .public-info {
+    .theme-action {
+      margin-top: 10px;
+    }
+  }
+
+  .user-public {
+    padding: 0 15px;
+  }
+
+  .admin {
+    margin-left: 0;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .flash-windows {
+    width: auto;
+    max-width: calc(100% - 30px);
+  }
+
+
+  .winner-list__inner {
+    padding: 15px 5px;
+  }
+
+  .member-time > p {
+    font-size: em(14);
+  }
+
+  .member {
+    align-items: center;
+    padding: 10px 10px 10px 15px;
+  }
+
+  .theme-action__btn span {
+    padding-left: 3px;
+  }
+
+  .user-list .user .user-name {
+    padding: 0 7px;
+  }
+
+  .user-public {
+    flex-direction: column;
+  }
+
+  .user-public__info {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+
+  .form-login {
+    padding: 0 15px;
+  }
+  .login {
+    width: 100%;
+  }
+
+  .medium-title {
+    font-size: em(18);
+  }
+
+  .amount-card {
+    padding: 20px 15px;
+  }
+
+  .spect {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .game-change, .amount-cards {
+    width: 100%;
+  }
+
+
+  .item {
+    flex-direction: column;
+  }
+
+  .adver-info {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+
+  .adver-price {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .member-winner {
+    .dropdown .dropdown-menu {
+      min-width: 150px;
+      right: -30px;
+      margin-top: 10px;
+
+    }
+  }
+
+  .add-news__btn {
+    margin-top: 15px;
+    flex-direction: column;
+    .theme-btn + .theme-btn {
+      margin-top: 15px;
+    }
+  }
+
+
+
+}
+
+@media print {
+    /* здесь будут стили для печати */
+
+    .panelHead {
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      .actionsBtn {
+        display: none;
+      }
+    }
+
+    a[href]:not(.themeLogo):after {
+      content: " (" attr(href) ")";
+        display: none;
+    }
+
+    .statisticGroup {
+       margin-top: 50px !important
+    }
+
+    .statisticBox {
+      margin-top: 50px !important;
+    }
+
+    .settingBtn {
+      display: none !important;
+      a {display: none !important;}
+    }
+
+    .sidePanel{
+      display: none !important;
+    }
+    .adminBox {
+      justify-content: flex-start;
+    }
+
+    .mainPanel {
+      width: 100%  !important;
+     transform: scale(.5) translate(-50%, -50%) !important;
+      float: left;
+    }
+
+    .adminTable>tbody > tr {
+      border-top: 1px solid #e1e1e1;
+    }
+
+    .adminTable {
+      border: 1px solid #e1e1e1;
+    }
+
+    .td-title {
+        border: 1px solid #e1e1e1;
+    }
+
+    .orderNumber .td-title {
+        border: none;
+    }
+
+    .themeLogo {
+      position: fixed !important;
+      left: 20px;
+      top: 50px;
+      display: block !important;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .print {
+      display: none;
+    }
+
+
+
+
+}
